@@ -1,9 +1,9 @@
-main {
+body {
   width: 1366px;
-  margin: 0 auto;
+  margin: auto;
 }
 .padding-site {
-  padding-left: 227px;
+  padding-left: 127px;
 }
 header {
   display: flex;
@@ -82,6 +82,7 @@ select {
   justify-content: center;
   border-left: 1px solid #e6e6e6;
   padding-left: 15px;
+  padding-right: 15px;
 }
 .fa {
   text-decoration: none;
@@ -146,6 +147,7 @@ nav {
   height: 665px;
   width: 1600px;
   display: flex;
+  margin-left: -100px;
 }
 .titleContainer {
   margin-top: 224px;
@@ -186,7 +188,6 @@ nav {
 }
 .hotDeal {
   margin-top: 98px;
-  margin-left: 230px;
 }
 .leftSide {
   margin-right: 21px;
