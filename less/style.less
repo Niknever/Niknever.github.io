@@ -18,6 +18,10 @@ header {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*logo*/
 
 .logo {
@@ -80,6 +84,22 @@ select {
     border-right: 1px solid #e6e6e6;
 }
 
+.searchSelect {
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #222222;
+    border-right: 1px solid #e6e6e6;
+    width: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .searchInput:focus,
 .searchInput:active,
 .searchInput {
@@ -127,7 +147,7 @@ select {
 
 .profileSel {
     border: none;
-    width: 130px;
+    width: 117px;
     height: 38px;
     background-color: #f16d7f;
     color: white;
@@ -136,9 +156,22 @@ select {
     line-height: 32px;
     font-weight: 400;
     letter-spacing: 0.025em;
-    padding-left: 15px;
-    padding-right: 10px;
     margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-caret-down {
+    margin-left: 8px;
+}
+
+.caret {
+    color: #838383;
+}
+
+.profileSel:hover {
+    color: #838383;
 }
 
 nav {
@@ -608,9 +641,10 @@ a {
 .review {
     display: flex;
     justify-content: center;
-    margin-top: 97px;
-    background: url(../images/rectangle_9_2194.png);
+    background: url(../images/layer_41_2195.png) 90% 40% no-repeat fixed,
+                url(../images/rectangle_9_copy_2196.png) 90% 40% no-repeat fixed;
     height: 302px;
+    margin-top: 97px;
     width: 1600px;
     margin-left: -76px;
     padding-top: 111px;
@@ -764,4 +798,61 @@ a {
 .footerContainer {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
+}
+
+.footerBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.fbText {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #898989;
+    margin-top: 29px;
+}
+
+
+.fb1 {
+    margin-right: 64px;
+}
+
+
+.fb2Title {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+    margin-top: 40px;
+}
+
+.footerLink  {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #898989;
+}
+ 
+.footerLinkFirstChild {
+    margin-top: 17px;
+}
+
+.footerLink:hover {
+    color: #616161;
+}
+
+.fb2 {
+    margin-right: 129px;
+}
+
+.fb3 {
+    margin-right: 129px;
 }
